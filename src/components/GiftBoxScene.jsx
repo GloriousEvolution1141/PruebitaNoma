@@ -74,7 +74,7 @@ export default function GiftBoxScene() {
   };
 
   return (
-    <div className="w-full flex-grow flex flex-col items-center justify-start pt-8 md:pt-12 text-center">
+    <div className="w-full flex-grow flex flex-col items-center justify-start pt-4 md:pt-8 text-center">
       {/* Título Nuevo con EKG */}
       <h1 className="text-4xl md:text-5xl font-serif text-transparent bg-clip-text bg-gradient-to-r from-pink-300 to-rose-400 drop-shadow-md leading-tight mb-2">
         Latidos hasta Nuestro Primer Mes
@@ -124,7 +124,7 @@ export default function GiftBoxScene() {
          </div>
       ) : (
         /* Contenedor interactivo (Este será sacudido por GSAP) */
-        <div className="relative mt-12 md:mt-16 cursor-pointer group" onClick={handleBoxClick}>
+        <div className="relative mt-6 md:mt-10 cursor-pointer group" onClick={handleBoxClick}>
           {/* Instrucción visual sutil */}
           <div className="absolute -top-10 left-0 w-full text-center text-pink-200/80 text-sm animate-bounce font-medium">
             {isMonthPassed ? "Tócame para abrir" : "Tócame"}
