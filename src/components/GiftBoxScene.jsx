@@ -74,7 +74,7 @@ export default function GiftBoxScene() {
   };
 
   return (
-    <div className="w-full flex-grow flex flex-col items-center justify-start pt-4 md:pt-8 text-center">
+    <div className="w-full flex-grow flex flex-col items-center justify-start pt-2 text-center">
       {/* Título Nuevo con EKG */}
       <h1 className="text-4xl md:text-5xl font-serif text-transparent bg-clip-text bg-gradient-to-r from-pink-300 to-rose-400 drop-shadow-md leading-tight mb-2">
         Latidos hasta Nuestro Primer Mes

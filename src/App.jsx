@@ -13,7 +13,7 @@ function App() {
       <div className="absolute inset-0 bg-black/40 pointer-events-none" />
 
       {/* Contenedor principal con márgenes laterales y centrado */}
-      <div className="relative z-10 w-full max-w-lg mx-auto px-6 py-10 h-full flex flex-col items-center">
+      <div className="relative z-10 w-full max-w-lg mx-auto px-6 pt-1 pb-6 h-full flex flex-col items-center">
         <GiftBoxScene />
       </div>
     </div>
